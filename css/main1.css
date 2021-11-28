@@ -1,0 +1,221 @@
+
+a{
+	color: white;
+	background:#5a0303 ;
+	border-radius: 4px;
+	padding: 12px 24px
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	background:#ff0000 ;
+	
+}
+
+.elemek{
+	display: inline-block;
+	padding: 10px 20px 20px 20px;
+}
+
+.menu {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: 10px;
+	padding: 10px 20px 5px 0px;
+	font-size: 150%;
+	font-family: Oswald;
+}
+
+.elemek1 a:hover{
+	background-color: blue;
+}
+
+.nev{
+	font-size: 500%;
+	margin-left: 40vw;
+	margin-top: 10vh;
+	line-height: 90%;
+	color:white;
+	background-color:#0b0b0d ;
+	border-radius: 3px;
+	padding: 2px 4px 10px 60px;
+	font-family: Oswald ;
+
+}
+
+.nev:hover{
+	background: #1C1D1E;
+}
+
+.felirat{
+	font-size: 400%;
+	margin-left: 600vw;
+	margin-top: 400vh;
+	line-height: 90%;
+	color:white
+}
+
+
+
+
+
+.hatter{
+	background-image: url(../kepek/proba5.png);
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	}
+
+.mh{
+	background-image: url(../kepek/hatter24.png);
+	margin: -2vh 0px 0px 0p;x
+	padding:0px;
+	width: 100%;
+	height: 100vh;
+
+}
+
+
+
+
+.kartya h1{
+	color: #5a0303;
+	font-family: Oswald;
+
+
+}
+.kartya1 h2{
+	color: #5a0303;
+	font-family: Oswald;
+
+}
+
+.kartya_burkolo p{
+	color:white;
+	font-family: Oswald;
+	
+	font-size: 17px;
+}
+
+.kartya:hover h1{
+	color:#ff0000 ;
+}
+.kartya1:hover h2{
+	color:#ff0000 ;
+}
+
+.kartya{	
+	vertical-align: top;
+	display: flex;
+	background-color:#0b0b0d;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 16px 30px 40px 32px;
+	margin: 8px auto;
+	text-align: center;
+	max-width: 260px;
+	font-family: Oswald;
+	
+	justify-content: space-around;
+
+	
+}
+
+.kartya:hover{
+	background-color: #080809;
+
+}
+.kartya_burkolo{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	grid-gap: 1px;
+	background-color: #0b0b0d;
+	text-align: center;
+
+}
+.kartya_burkolo .kartya1{
+	margin: 0;
+	max-width: none;
+}
+
+.kartya1 img{
+	max-height: 100px;
+	display: block;
+	margin: 16px auto;
+	border: 5px solid black;
+	border-radius: 15px;}
+
+.kartya p{
+	color:white;
+
+
+}
+
+.hatter3{
+	color: black;
+}
+
+
+
+
+
+	.
+
+
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+
+
+
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
